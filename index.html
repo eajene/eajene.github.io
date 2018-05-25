@@ -89,13 +89,17 @@
                         <div class="footer-subscribe">
                           <div class="subscribe-form">
                 
-                                                <form id="mc-form" class="group" novalidate="true">
+                                                <form id="mc-form" class="group" novalidate="true" method="POST" action="https://api.cloudstitch.com/gozem/gozem">
+<input type="hidden" name="_redirect" value="http://gozem.co" />
 
-                                                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Votre Adresse Email" required="">
+                                                    <input type="email" value="" name="EMAIL" class="email" id="email" placeholder="Votre Adresse Email" required="">
                                                     <input type="submit" name="subscribe" value="Envoyez" style="margin-right:0;">
+
+
                                                     <label for="mc-email" class="subscribe-message"></label>
                 
                                                 </form>
+
                           </div>
                         </div>
 <!--
@@ -174,7 +178,7 @@
             </div>
             <div class="col-eight">
                 <p class="lead" data-aos="fade-up">
-GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Francophone. Notre objectif est d'offrir une commodité, une sécurité et une fiabilité de classe mondiale aux passagers et aux conducteurs de la région, en commençant par les taxis motos communément appelés «zemidjans». <br><br>GoZem dynamise l'Afrique de l'Ouest.
+GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Francophone. Notre objectif est d'offrir le confort, la sécurité, et la fiabilité de nos services aux passagers et aux conducteurs locaux, en commençant par le secteur de la moto-taxi (ou «zemidjan»). <br><br>GoZem veut dynamiser le transport en Afrique de l'Ouest.
 
                 </p>
             </div>                       
@@ -191,9 +195,9 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
 
                     <div class="service-content">	
 
-                        <h3>Commodité</h3>
+                        <h3>Confort</h3>
 
-                        <p>Comme par magie, GoZem fait déplacer dans la ville facile. Fini le temps perdu et de l'énergie à la recherche pour le transport, et aucun des inconvénients de marchandage pour le prix.
+                        <p>Comme par magie, GoZem fait se déplacer dans la ville facile. Fini le temps perdu et la dépense d'énergie en vain à la recherche d'un zémidjan de qualité à un juste prix.
                         </p>
                         
                     </div> 	         	 
@@ -207,7 +211,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                     <div class="service-content">	
                         <h3>Sécurité</h3>  
 
-                        <p>Chaque conducteur est vérifié et formé et chaque voyage est suivi par GPS de smartphone. Vous pouvez même partager un voyage en direct avec vos proches.
+                        <p>Chaque conducteur GoZem est formé et certifié de qualité. Chaque trajet est enregistré en live par GPS sur l'application. Vous pouvez même partager un voyage en direct avec vos proches.
                         </p>
 
                         
@@ -222,7 +226,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                     <div class="service-content">
                         <h3>Fiabilité</h3>
 
-                        <p>Déplacez-vous dans la ville quand vous le voulez avec des conducteurs de qualité en qui vous pouvez avoir confiance. GoZem est là quand vous voulez, où que vous alliez.
+                        <p>Déplacez-vous dans la ville quand vous voulez avec des conducteurs certifiés en qui vous pouvez avoir confiance. GoZem s'engage à offrir un service de grande qualité.
                         </p> 
                             
                     </div> 	            	               
@@ -283,26 +287,26 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                 <div class="about-how-steps block-1-2 block-tab-full group" >
 
                     <div class="bgrid step" data-item="1">
-                        <h3>Entrez Votre Lieu & Destination</h3>
-                        <p>Utilisez la carte dans l'application pour sélectionner où vous avez besoin de transport et où vous voulez aller. <strong>C'est trop facile.</strong>
+                        <h3>Entrez Votre Localisation & Destination</h3>
+                        <p>Entrez le lieu de rencontre ou utilisez directement la carte puis informez l'application du lieu de destination. <strong>Simplement. </strong>
                         </p> 
                     </div>
 
                     <div class="bgrid step" data-item="2">
-                        <h3>Choisissez Votre Méthode de Paiement</h3>
-                        <p>Choisissez comment vous souhaitez payer: espèces, argent mobile, ou carte de crédit / débit. <strong>Tout ce qui vous convient.</strong>
+                        <h3>Choisissez Votre Moyen de Paiement</h3>
+                        <p>Choississez entre le paiement par cash, la carte bancaire ou le mobile money pour régler votre trajet. <strong>GoZem vous offre la solution adaptée.</strong>
                         </p> 
                     </div>               
                
                     <div class="bgrid step" data-item="3">
-                        <h3>Soumettrez Votre Réservation</h3>
-                        <p>Avec les emplacements initiaux et finaux, GoZem calcule et affiche le prix pour le voyage avant de réserver. <strong>Réservez en toute confiance.</strong>
+                        <h3>Réserve</h3>
+                        <p>GoZem calcule pour vous et certifie le prix pour le trajet avant de réserver. Vous pouvez maintenant <strong>valider la réservation en toute confiance.</strong>
                         </p> 
                     </div>
 
                     <div class="bgrid step" data-item="4">
                         <h3>Bon Voyage</h3>
-                        <p>Nos conducteurs vérifiés viendront à votre emplacement choisi et vous conduiront en toute sécurité à votre destination. <strong>Voyagez sagement.</strong>
+                        <p>Le conducteur GoZem s'occupera de votre confort et votre sécurité en vous offrant un casque et en conduisant prudemment. <strong>Appréciez votre trajet.</strong>
                         </p> 
                     </div>  
 
@@ -460,7 +464,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                 <h1 class="intro-header"  data-aos="fade-up">Soyez Le Premier à Télécharger!</h1>
 
                 <p class="lead" data-aos="fade-up">
-                    Inscrivez-vous à notre liste de diffusion pour passagers aujourd'hui et soyez le premier à utiliser notre application.
+                    Inscrivez-vous vite à notre newsletter pour informer les futurs utilisateurs et soyez le premier à utiliser notre application :
                 </p>
 
                 <div class="footer-subscribe">
@@ -501,7 +505,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                     <div class="footer-logo"></div>
 
                     <p>
-                    La Plateforme Technologique de Transport Pour l'Afrique. <br><strong>Commodité</strong>, <strong>Sécurité</strong>, <strong>Fiabilité</strong>.
+                    La Plateforme Technologique de Transport Pour l'Afrique. <br><strong>Confort</strong>, <strong>Sécurité</strong>, <strong>Fiabilité</strong>.
                     </p>
 
                     <ul class="footer-social-list">
@@ -548,9 +552,9 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
 
                 <div class="col-four md-1-2 tab-full footer-subscribe">
 
-                    <h4>A Venir Sous Peu</h4>
+                    <h4>Prochainement</h4>
 
-                    <p style="margin-bottom: 1.5rem;">Soyez Le Premier à Télécharger:</p>
+                    <p style="margin-bottom: 1.5rem;">Soyez Le Premier à Télécharger :</p>
 
                     <div class="subscribe-form">
                 
