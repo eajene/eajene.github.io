@@ -89,13 +89,18 @@
                         <div class="footer-subscribe">
                           <div class="subscribe-form">
                 
-                                                <form id="mc-form" class="group" novalidate="true">
+                                                <form method="POST" action="https://api.cloudstitch.com/gozem/gozem/Drivers" >
 
-                                                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Votre Adresse Email" required="">
-                                                    <input type="submit" name="subscribe" value="Envoyez" style="margin-right:0;">
-                                                    <label for="mc-email" class="subscribe-message"></label>
-                
-                                                </form>
+<input name="NAME" placeholder="Votre Nom" type="text" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" required />
+    <input name="PHONE" placeholder="Votre Numéro de Téléphone" type="text" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" required />
+<input name="EMAIL" placeholder="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" />
+
+    <input type="hidden" name="_redirect" value="http://gozem.co">
+    <button type="submit" style="background: #39b54a;border-color: #39b54a;border-radius: 0 .5rem .5rem 0; padding: 0 15px;margin-right:0;width: 100%;">Envoyez</button>
+</form>
                           </div>
                         </div>
 <!--
@@ -174,7 +179,7 @@
             </div>
             <div class="col-eight">
                 <p class="lead" data-aos="fade-up">
-GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Francophone. Notre objectif est d'offrir le confort, la sécurité, et la fiabilité de nos services aux passagers et aux conducteurs locaux, en commençant par le secteur de la moto-taxi (ou «zemidjan»). <br><br>GoZem veut dynamiser le transport en Afrique de l'Ouest.
+GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Francophone. Notre objectif est d'offrir le confort, la sécurité, et la fiabilité de nos services aux passagers et aux conducteurs locaux, en commençant par les motos-taxi (ou «zemidjans»). <br><br>GoZem veut dynamiser le transport en Afrique de l'Ouest.
 
                 </p>
             </div>                       
@@ -205,7 +210,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                     <div class="service-content">	
                         <h3>Gérez Votre Argent</h3>  
 
-                        <p>Consultez tout vos trajets effectués et suivez vos revenus en direct. Service de support pour les chauffeurs GoZem est toujours disponible.
+                        <p>Consultez tout vos trajets effectués et suivez vos revenus en direct. Service de support pour les chauffeurs GoZem toujours disponible.
                         </p>
 
                         
@@ -220,7 +225,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                     <div class="service-content">	
 
                         <h3>Gagnez Plus d'Argent</h3>
-                        <p>Travaillez pour GoZem, c'est gagnez plus. GoZem vous envoie des clients tout le temps. Vous économisez du temps et de l'essence.
+                        <p>Travaillez pour GoZem, c'est gagner plus. GoZem vous envoie des clients tout le temps. Vous économisez du temps et de l'essence.
                         </p>
                         
                     </div> 	            	               
@@ -288,18 +293,18 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
 
                     <div class="bgrid step" data-item="2">
                         <h3>Acceptez les Demandes de Voyage</h3>
-                        <p>Lorsque vous avez accepté la réservation, vous découvrez le lieu de rencontre. Contactez le client que vous êtes sur le chemin. <strong>Ne perdez plus une minute.</strong>
+                        <p>Lorsque vous avez accepté la réservation, vous découvrez le lieu de rencontre. Contactez le client que vous êtes en chemin. <strong>Ne perdez plus une minute.</strong>
                         </p> 
                     </div>               
                
                     <div class="bgrid step" data-item="3">
-                        <h3>Conduisez Le Passager à Destination</h3>
-                        <p>Récupéréz le passager et le conduisez maintenant en toute sécurité à destination. L'application peut fournir des directions si vous en avez besoin. <strong>Bon voyage.</strong>
+                        <h3>Conduisez Ll Passager à Destination</h3>
+                        <p>Récupérez-le passager et conduisez-le maintenant en toute sécurité à destination. L'application peut fournir des directions si vous en avez besoin. <strong>Bon voyage.</strong>
                         </p> 
                     </div>
 
                     <div class="bgrid step" data-item="4">
-                        <h3>Obtenez Payé</h3>
+                        <h3>Recevez le Paiement</h3>
                         <p>Qu'importe le moyen de paiement choisi par le passager, vous recevez l'argent immédiatemment après le trajet.  <strong>Gagnez plus avec GoZem.</strong>
                         </p> 
                     </div>  
@@ -406,21 +411,33 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                 <h1 class="intro-header"  data-aos="fade-up">Soyez Le Premier à Télécharger!</h1>
 
                 <p class="lead" data-aos="fade-up">
-                    Inscrivez-vous vite à notre newsletter pour informer les futurs utilisateurs et soyez le premier à utiliser notre application :
+                    Inscrivez-vous vite pour devenir conducteur et soyez le premier à utiliser notre application :
                 </p>
 
                 <div class="footer-subscribe">
                   <div class="subscribe-form">
 
+<form method="POST" action="https://api.cloudstitch.com/gozem/gozem/Drivers" >
+
+<input name="NAME" placeholder="Votre Nom" type="text" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" required />
+    <input name="PHONE" placeholder="Votre Numéro de Téléphone" type="text" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" required />
+<input name="EMAIL" placeholder="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" />
+
+    <input type="hidden" name="_redirect" value="http://gozem.co">
+    <button type="submit" style="background: #398a44;border-color: #398a44;border-radius: 0 .5rem .5rem 0; padding: 0 15px;margin-right:0;width: 100%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);color:#ffffff">Envoyez</button>
+</form>
                 
-                                                <form id="mc-form" class="group" novalidate="true">
+                                                <!-- <form id="mc-form" class="group" novalidate="true">
 
                                                     <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Votre Adresse Email" required="" >
                                                     <input type="submit" name="subscribe" value="Envoyez" style="margin-right:0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);background: #398a44;
     border-color: #398a44;">
                                                     <label for="mc-email" class="subscribe-message"></label>
                 
-                                                </form>
+                                                </form> -->
                   </div>
                 </div>
 
@@ -496,19 +513,19 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
 
                     <h4>Prochainement</h4>
 
-                    <p style="margin-bottom: 1.5rem;">Soyez Le Premier à Télécharger:</p>
+                    <p style="margin-bottom: 1.5rem;">Inscrivez-Vous à Notre Newsletter:</p>
 
                     <div class="subscribe-form">
                 
-                        <form id="mc-form" class="group" novalidate="true">
+                        <form method="POST" action="https://api.cloudstitch.com/gozem/gozem" >
+    <input name="EMAIL" placeholder="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: url(./images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" />
 
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Votre Adresse Email" required=""> 
-                
-                            <input type="submit" name="subscribe" value="Envoyez">
-                
-                            <label for="mc-email" class="subscribe-message"></label>
-                
-                        </form>
+    <input type="hidden" name="_redirect" value="http://gozem.co">
+
+    <button type="submit" style="
+    position: absolute; top: 0;right: 0;color: #ffffff;background: #39b54a;border-color: #39b54a;border-radius: 0 .5rem .5rem 0; padding: 0 15px;margin-right:0;">Envoyez</button>
+</form>
 
                     </div>	      		
                             
