@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
@@ -6,12 +6,20 @@
 <!--<![endif]-->
 
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120811691-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-120811691-1');
+</script>
     <!--- basic page needs
    ================================================== -->
     <meta charset="utf-8">
-    <title>Déplacez-Vous Avec GoZem</title>
-    <meta name="description" content="GoZem est une plateforme technologique de transport pour l'Afrique. Déplacez-vous avec GoZem: la simplicité, la sécurité, la fiabilité. Téléchargez l'appli.">
+    <title>GoZem - L'application Transport du Togo</title>
+    <meta name="description" content="GoZem est l'application transport du Togo. Déplacez-vous avec GoZem: Simple, Sûr, Fiable. Téléchargez l'appli aujourd'hui.">
     <meta name="author" content="">
 
     <!-- mobile specific metas
@@ -31,7 +39,7 @@
 
     <!-- favicons
 	================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="icon" href="favicon.png" type="image/x-icon">
 </head>
 
@@ -76,20 +84,24 @@
                     <h3 data-aos="fade-up">bienvenue / bonne arrivée chez gozem</h3>
 
                     <h1 data-aos="fade-up" style="margin-bottom:0";>
-                        Déplacez-Vous <br>
-                        En Toute Simplicité<br>
-                        </h1><h1 data-aos="fade-up" style="color:#159139";>Telechargez L'Appli</h1>
+                        Le Transport En <br>
+                        Afrique de l'Ouest<br>
+                        Est Sur Le Point De</h1><h1 data-aos="fade-up" style="color:#159139";>Changer</h1>
                     </h1>
 
                      <div class="buttons" data-aos="fade-up">
-			     
-                    <a href="index.html"><img src="images/google-play.png" style="width: 48%;!important></a>
-                    <a href="index.html"><img src="images/appstore.png" style="width: 48%;!important></a>
-                
-			     
 
                          <div class="footer-subscribe">
                           <div class="subscribe-form"> 
+<form method="POST" action="https://api.cloudstitch.com/gozem/gozem" >
+    <input name="EMAIL" placeholder="Votre Adresse Email" title="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
+    height: 5.4rem;padding: 1.2rem 100px 1.2rem 60px;background: url(./images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.6);background-size: 24px 16px, auto;margin-bottom: 1.8rem;color: rgba(255, 255, 255, 0.5);" />
+
+    <input type="hidden" name="ROWSOURCE" value="Homepage Hero" /><input type="hidden" name="TIMESTAMP" id="TIME" /><input type="hidden" name="COUNTRY" id="country_name" /><input type="hidden" name="_redirect" value="http://gozem.co/merci.html">
+
+    <button type="submit" style="
+    position: absolute; top: 0;right: 0;color: #ffffff;background: #39b54a;border-color: #39b54a;border-radius: 0 .5rem .5rem 0; padding: 0 15px;margin-right:0;">Envoyez</button>
+</form>
 
 
                           </div>
@@ -100,11 +112,11 @@
 
                 </div>
 
-                 <div class="home-image-right">
+                <div class="home-image-right">
                     <img src="images/iphone-app-470.png" 
                         srcset="images/iphone-app-470.png 1x, images/iphone-app-940.png 2x"  
                         data-aos="fade-up">
-                </div> 
+                </div>
             </div>
 
         </div> <!-- end home-content -->
@@ -150,7 +162,7 @@
             </div>
             <div class="col-eight">
                 <p class="lead" data-aos="fade-up">
-GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Francophone. Notre objectif est d'offrir la simplicité, la sécurité, et la fiabilité de nos services aux passagers et aux conducteurs locaux, en commençant par les motos-taxi (ou «zemidjans»). <br><br>GoZem veut dynamiser le transport en Afrique de l'Ouest.
+GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Francophone. Notre objectif est d'offrir la simplicité, la sécurité, et la fiabilité de nos services aux passagers et aux conducteurs locaux, en commençant par les motos-taxi (ou «zemidjans») au Togo. <br><br>GoZem est l'application transport de l'Afrique.
 
                 </p>
             </div>                       
@@ -167,7 +179,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
 
                     <div class="service-content">	
 
-                        <h3>Simplicité</h3>
+                        <h3>Simple</h3>
 
                         <p>Comme par magie, GoZem s'occupe de tout vos déplacements. Fini le temps perdu et la dépense d'énergie en vain à la recherche d'un zémidjan de qualité à un juste prix.
                         </p>
@@ -181,7 +193,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                         <span class="icon"><i class="icon-padlock"></i></span>                          
 
                     <div class="service-content">	
-                        <h3>Sécurité</h3>  
+                        <h3>Sûr</h3>  
 
                         <p>Chaque conducteur GoZem est formé et certifié de qualité. Chaque trajet est enregistré en live par GPS sur l'application. Vous pouvez même partager un voyage en direct avec vos proches.
                         </p>
@@ -196,7 +208,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                     <span class="icon"><i class="icon-thumbs-up"></i></span>		            
 
                     <div class="service-content">
-                        <h3>Fiabilité</h3>
+                        <h3>Fiable</h3>
 
                         <p>Déplacez-vous dans la ville quand vous voulez avec des conducteurs certifiés en qui vous pouvez avoir confiance. GoZem s'engage à offrir un service de grande qualité.
                         </p> 
@@ -233,7 +245,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                     </div>               
                
                     <div class="bgrid step" data-item="3">
-                        <h3>Réserve</h3>
+                        <h3>Réservez</h3>
                         <p>GoZem calcule pour vous et certifie le prix pour le trajet avant de réserver. Vous pouvez maintenant <strong>valider la réservation en toute confiance.</strong>
                         </p> 
                     </div>
@@ -282,7 +294,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
                   <div class="subscribe-form">
 
 <form method="POST" action="https://api.cloudstitch.com/gozem/gozem" >
-    <input name="EMAIL" placeholder="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
+    <input name="EMAIL" placeholder="Votre Adresse Email" title="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
     height: 5.4rem;
     padding: 1.2rem 100px 1.2rem 60px;
     background: url(./images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.6);
@@ -290,7 +302,7 @@ GoZem est une plateforme technologique de transport pour l'Afrique de l'Ouest Fr
     margin-bottom: 1.8rem;
     color: rgba(255, 255, 255, 0.5);" />
 
-    <input type="hidden" name="ROWSOURCE" value="Homepage Download" /><input type="hidden" name="TIMESTAMP" id="TIME1" /><input type="hidden" name="_redirect" value="http://gozem.co/merci.html">
+    <input type="hidden" name="ROWSOURCE" value="Homepage Download" /><input type="hidden" name="TIMESTAMP" id="TIME1" /><input type="hidden" name="COUNTRY" id="country_name1" /><input type="hidden" name="_redirect" value="http://gozem.co/merci.html">
 
     <button type="submit" style="
     position: absolute;
@@ -332,7 +344,7 @@ margin-right:0;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
                     <div class="footer-logo"></div>
 
                     <p>
-                    La Plateforme Technologique de Transport Pour l'Afrique. <br><strong>Simplicité</strong>, <strong>Sécurité</strong>, <strong>Fiabilité</strong>.
+                    L'application Transport de l'Afrique. <br><strong>Simple</strong>, <strong>Sûr</strong>, <strong>Fiable</strong>.
                     </p>
 
                     <ul class="footer-social-list">
@@ -360,7 +372,7 @@ margin-right:0;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
                     <p>
                     471, Boulevard du 13 Janvier<br>
                     Kodjoviakopé, Lomé, Togo<br>
-                    info@gozem.co <br>    
+                    support@gozem.co <br>    
                     </p>                    
 
                 </div> <!-- end footer-contact -->  
@@ -387,7 +399,7 @@ margin-right:0;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
                     <div class="subscribe-form">
                 
                         <form method="POST" action="https://api.cloudstitch.com/gozem/gozem" >
-    <input name="EMAIL" placeholder="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
+    <input name="EMAIL" placeholder="Votre Adresse Email" title="Votre Adresse Email" class="email" id="email" type="email" style="width: 100%;
     height: 5.4rem;
     padding: 1.2rem 100px 1.2rem 60px;
     background: url(./images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.6);
@@ -395,7 +407,7 @@ margin-right:0;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
     margin-bottom: 1.8rem;
     color: rgba(255, 255, 255, 0.5);" />
 
-    <input type="hidden" name="ROWSOURCE" value="Homepage Footer" /><input type="hidden" name="TIMESTAMP" id="TIME2" /><input type="hidden" name="_redirect" value="http://gozem.co/merci.html">
+    <input type="hidden" name="ROWSOURCE" value="Homepage Footer" /><input type="hidden" name="TIMESTAMP" id="TIME2" /><input type="hidden" name="COUNTRY" id="country_name2" /><input type="hidden" name="_redirect" value="http://gozem.co/merci.html">
 
     <button type="submit" style="
     position: absolute;top: 0;right: 0;color: #ffffff;background: #39b54a;border-color: #39b54a;border-radius: 0 .5rem .5rem 0;padding: 0 15px;margin-right:0;">Envoyez</button>
@@ -443,6 +455,7 @@ margin-right:0;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
 document.getElementById('TIME').value = (new Date());
 document.getElementById('TIME1').value = (new Date());
 document.getElementById('TIME2').value = (new Date());
+$.get("https://api.ipdata.co?api-key=663de615ba54e12beb39dc44e744006d6d7873164c2b8be85667edd2", function (response) {$("#country_name").val(response.country_name);$("#country_name1").val(response.country_name);$("#country_name2").val(response.country_name);}, "jsonp");
 </script>
 </body>
 
